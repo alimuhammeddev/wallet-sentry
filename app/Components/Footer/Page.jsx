@@ -8,19 +8,19 @@ const Footer = () => {
             <div className="mt-3 lg:px-40 lg:flex items-center lg:justify-between">
                 <div className="lg:flex items-center gap-10">
                     <div className="flex items-center gap-2">
-                        <Image src="/email.png" width={30} height={30}/>
+                        <Image src="/email.png" width={30} height={30} alt="Email Image"/>
                         <h1 className="text-[#E4E4E4] text-[16px]">sentrysipport@yahoo.com</h1>
                     </div>
                     <div className="flex items-center lg:mt-0 mt-5 gap-2">
-                        <Image src="/call.png" width={30} height={30}/>
+                        <Image src="/call.png" width={30} height={30} alt="Call Image"/>
                         <h1 className="text-[#E4E4E4] text-[16px]">+234 9087654362</h1>
                     </div>
                 </div>
                 <div className="flex items-center lg:mt-0 mt-5 gap-5">
-                    <Image src="/linkedin.png" width={30} height={30}/>
-                    <Image src="/facebook.png" width={30} height={30}/>
-                    <Image src="/twitter.png" width={30} height={30}/>
-                    <Image src="/instagram.png" width={30} height={30}/>
+                    <Image  src="/linkedin.png" alt="Social Image" width={30} height={30}/>
+                    <Image  src="/facebook.png" alt="Social Image" width={30} height={30}/>
+                    <Image  src="/twitter.png"  alt="Social Image"width={30} height={30}/>
+                    <Image  src="/instagram.png" alt="Social Image" width={30} height={30}/>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href="#!" className="text-[16px] text-[#ffffff] font-medium">PRIVACY POLICY</a>
                 </div>
                 <div className="flex items-center lg:justify-normal justify-center gap-2 lg:mt-0 mt-4">
-                    <Image src="/copy.png" width={15} height={15}/>
+                    <Image src="/copy.png" width={15} height={15} alt="Copy Image"/>
                     <h1 className="text-[#B8BABD] text-[16px]">2023 Wallet Sentry</h1>
                 </div>
             </div>

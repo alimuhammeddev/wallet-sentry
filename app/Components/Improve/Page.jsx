@@ -6,7 +6,7 @@ const Improve = () => {
     <main className="lg:px-52 lg:mt-24 p-3">
         <div className="flex lg:flex-row flex-col lg:gap-28 gap-5">
             <div>
-                <Image src="/logo2.png" width={500} height={500}/>
+                <Image src="/logo2.png" width={500} height={500} alt="Logo2 Image"/>
             </div>
             <div>
                 <h1 className="lg:text-[40px] text-[25px] font-semibold text-[#222222]">Improve Your Financial <br /> Performance</h1>

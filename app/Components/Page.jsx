@@ -91,7 +91,7 @@ const Hero = () => {
         <div className="flex lg:flex-row flex-col items-center justify-between">
             <div>
                 <h1 className='lg:text-[56px] text-[35px] font-semibold text-[#ffffff] z-10'>Your Path to <br /> Financial Success</h1>
-                <Image src='/vector.png' width={130} height={130} className="lg:ml-[380px] md:block hidden -mt-5"/>
+                <Image src='/vector.png' width={130} height={130} alt="Vector Image" className="lg:ml-[380px] md:block hidden -mt-5"/>
                 <h2 className="text-[#EDEBEB] text-[16px] mt-5">Take charge of your money, track expenses effortlessly, and <br /> reach your financial goals. Start budgeting smarter today.</h2>
 
                 <div className="flex items-center gap-5 mt-5">
@@ -99,7 +99,7 @@ const Hero = () => {
                     Download Now
                     </button>
                     <button className="text-[#ffffff] flex items-center gap-3">
-                    <Image src="/play.png" width={25} height={25}/>
+                    <Image src="/play.png" width={25} height={25} alt="Play Image"/>
                     Watch Demo
                     </button>
                 </div>
@@ -107,7 +107,7 @@ const Hero = () => {
                 <div className="mt-5">
                     <h1 className="text-[#ffffff] text-[16px]">Trusted by leading companies</h1>
                     <div className="mt-5">
-                        <Image src='/logos.png' width={500} height={500}/>
+                        <Image src='/logos.png' width={500} height={500} alt="Logos Image"/>
                     </div>
                 </div>
             </div>

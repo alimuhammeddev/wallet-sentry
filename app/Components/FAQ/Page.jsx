@@ -6,7 +6,7 @@ const FAQ = () => {
     <main className="mt-20">
         <div className="flex lg:flex-row flex-col items-center justify-center gap-28">
             <div className="lg:mt-36">
-                <Image src="/search.png" width={300} height={300}/>
+                <Image src="/search.png" width={300} height={300} alt="Search Image"/>
             </div>
             <div className="p-4 lg:-mt-0 -mt-20">
                 <h1 className="lg:text-[40px] text-[20px] text-[#222222] font-semibold">Frequently Asked Questions</h1>

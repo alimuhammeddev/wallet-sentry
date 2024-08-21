@@ -13,14 +13,14 @@ const Testimonial = () => {
         <div className="mx-auto lg:flex lg:flex-row flex-col justify-center mt-10">
             <div className="lg:flex items-center bg-[#ffffff] lg:w-[670px] w-[300px]">
                 <div>
-                    <Image src="/customer1.png" width={300} height={300}/>
+                    <Image src="/customer1.png" width={300} height={300} alt="Customer1 Image"/>
                 </div>
                 <div className="lg:p-10 p-3 border-2 border-[#C5E1C4] lg:-ml-6">
                     <h1 className="text-[#6F6F6F] text-[16px]">I'm terrible with money, but Wallet <br /> Sentry turned things around for me. <br /> The visual reports are fantastic, and <br /> I'm finally on track to pay off my <br /> student loans! I would definitely <br /> recommend this app.</h1>
                     <div className="mt-7">
                         <h1 className="text-[20px] font-semibold text-[#222222]">OLAMIDE ODINAKA</h1>
                         <p className="text-[#8D8A8A] text-[16px]">Student at Univerity of Ibadan</p>
-                        <Image src="/star.png" width={100} height={100}/>
+                        <Image src="/star.png" width={100} height={100} alt="Star Image"/>
                     </div>
                 </div>
             </div>
